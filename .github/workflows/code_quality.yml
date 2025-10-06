@@ -1,7 +1,7 @@
 name: quality Checks
 
 on:
-    pull_request:
+    push:
         branches: [dev, main]
 
 jobs:
